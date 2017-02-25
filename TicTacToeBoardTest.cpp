@@ -18,3 +18,7 @@ TEST(TicTacToeBoardTest, sanityCheck)
 {
 	ASSERT_TRUE(true);
 }
+TEST(TicTacToeBoardTest, TurnisX)
+{
+	EXPECT_EQ(X, turn);
+}

@@ -99,4 +99,3 @@ Piece TicTacToeBoard::getWinner()
   else
    return Invalid;
 }
-
